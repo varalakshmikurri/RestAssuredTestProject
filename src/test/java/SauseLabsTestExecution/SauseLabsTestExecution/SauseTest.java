@@ -111,7 +111,11 @@ public class SauseTest extends BaseTest{
 		driver.quit();
 	}
 	
-
+	@Test(priority =3)
+	public void testGit()
+	{
+		System.out.println("GIT Test by vara");
+	}
 	
 		
 	}
