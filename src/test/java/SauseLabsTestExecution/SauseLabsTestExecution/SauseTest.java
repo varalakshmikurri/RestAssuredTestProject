@@ -117,7 +117,13 @@ public class SauseTest extends BaseTest{
 		System.out.println("GIT Test by vara");
 		System.out.println("GIT Test by vara - selenium");
 	}
-	
+	@Test(priority =4)
+	public void testGit3()
+	{
+		System.out.println("GIT Test by vara");
+		System.out.println("GIT Test by vara - selenium");
+		System.out.println("Added Test4");
+	}
 		
 	}
 
